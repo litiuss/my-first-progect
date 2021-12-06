@@ -1,0 +1,31 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1240px;
+  margin: auto;
+}
+
+.form_block{
+  margin-top: 100px;
+  background-color: #e0e0e0;
+  padding: 20px 10px;
+}
+
+.chapter{
+  margin-bottom: 25px;
+}
+
+.chapter:nth-child(5){
+  margin-bottom: 0px;
+}
